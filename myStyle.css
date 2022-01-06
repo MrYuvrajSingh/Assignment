@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: rgb(40, 95, 199);
+  color: white;
+  margin-left: 200px;
+}
+.heading {
+  font-size: 130%;
+  margin: 40px 0 80px 0;
+}
+.heading > p {
+  font-size: 80%;
+}
+#name {
+  margin-right: 10px;
+}
+#form {
+  width: 50%;
+}
+
+.ph_num {
+  margin-right: 10px;
+}
+
+label {
+  width: 160px;
+  height: 30px;
+  display: inline-block;
+}
+.name {
+  width: 28%;
+}
+
+.btn {
+  width: 120px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-weight: 400;
+  background-color: rgb(40, 95, 199);
+  color: white;
+  font-size: 1rem;
+  margin: 1vh 20px 0 0;
+}
+hr {
+  color: white;
+}
+select {
+  width: 38.5%;
+}
+
+input,
+textarea {
+  width: 58%;
+  height: 30px;
+}
+#verification {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+#message {
+  height: 120px;
+}
+[type="phone"] {
+  width: 18.2%;
+}
